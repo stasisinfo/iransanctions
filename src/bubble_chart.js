@@ -36644,7 +36644,7 @@ var iran = [
  {
    "ID":"26865",
    "Round": 30,
-   "Date": "June 24,2019",
+   "Date": "June 24, 2019",
    "Kind":"New",
    "Nationality": "Iran",
    "Nationality 2": "",
@@ -36680,7 +36680,7 @@ var iran = [
  {
    "ID":"26866",
    "Round": 30,
-   "Date": "June 24,2019",
+   "Date": "June 24, 2019",
    "Kind":"New",
    "Nationality": "Iran",
    "Nationality 2": "",
@@ -36716,7 +36716,7 @@ var iran = [
  {
    "ID":"26867",
    "Round": 30,
-   "Date": "June 24,2019",
+   "Date": "June 24, 2019",
    "Kind":"New",
    "Nationality": "Iran",
    "Nationality 2": "",
@@ -36752,7 +36752,7 @@ var iran = [
  {
    "ID":"26868",
    "Round": 30,
-   "Date": "June 24,2019",
+   "Date": "June 24, 2019",
    "Kind":"New",
    "Nationality": "Iran",
    "Nationality 2": "",
@@ -36790,7 +36790,7 @@ var iran = [
  {
    "ID":"26869",
    "Round": 30,
-   "Date": "June 24,2019",
+   "Date": "June 24, 2019",
    "Kind":"New",
    "Nationality": "Iran",
    "Nationality 2": "",
@@ -36826,7 +36826,7 @@ var iran = [
  {
    "ID":"26870",
    "Round": 30,
-   "Date": "June 24,2019",
+   "Date": "June 24, 2019",
    "Kind":"New",
    "Nationality": "Iran",
    "Nationality 2": "",
@@ -36862,7 +36862,7 @@ var iran = [
  {
    "ID":"26871",
    "Round": 30,
-   "Date": "June 24,2019",
+   "Date": "June 24, 2019",
    "Kind":"New",
    "Nationality": "Iran",
    "Nationality 2": "",
@@ -36898,7 +36898,7 @@ var iran = [
  {
    "ID":"26872",
    "Round": 30,
-   "Date": "June 24,2019",
+   "Date": "June 24, 2019",
    "Kind":"New",
    "Nationality": "Iran",
    "Nationality 2": "",
@@ -36934,7 +36934,7 @@ var iran = [
  {
    "ID":"26873",
    "Round": 30,
-   "Date": "June 24,2019",
+   "Date": "June 24, 2019",
    "Kind":"New",
    "Nationality": "Iran",
    "Nationality 2": "",
