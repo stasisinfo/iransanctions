@@ -36,7 +36,7 @@ opacity: 0.5;}
       <a href="#" id="year" class="button" onclick="tagFunction('hide')">Sanctions By Year</a>
       <a href="#" id="months" class="button" onclick="tagFunction('hide')">Sanctions Timeline</a>
       <a href="#" id="type" class="button" onclick="tagFunction('hide')">Type of Designee</a>
-       <a href="#" id="kind" class="button" onclick="tagFunction('hide')">Kind of Sanctions</a>
+       <a href="#" id="kind" class="button" onclick="tagFunction('kinds')">Kind of Sanctions</a>
       <a href="#" id="NONIR" class="button" onclick="tagFunction('hide')">Nationality/Location</a>
       <a href="#" class="button" id="toggle" onclick="tagFunction('show')">Sanctions Program</a>
       <a href="map.html" id="map" class="button">Sanctions Map</a>
@@ -45,17 +45,29 @@ opacity: 0.5;}
   function tagFunction(value) {
   var x = document.getElementById("subline")
   var y = document.getElementById("textarea");
+  var z = document.getElementById("textarea2");
   if (value=="show") {
+    console.log("SHOW SUBLINE");
     x.style.display = "block";
     y.style.display = "block";
-  } else {
+    z.style.display = "none";
+  }
+  else if (value=="kinds") {
     x.style.display = "none";
     y.style.display = "none";
+    z.style.display = "block";
+  }
+
+   else {
+    x.style.display = "none";
+    y.style.display = "none";
+    z.style.display = "none";
   }
 }
 </script>
 
   <p id="subline" style="display:none;">
+    Tags: 
     <a href="#" id="Terrorism" class="button2">Terrorism</a>
    &nbsp
     <a href="#" id="Human Rights" class="button2">Human Rights</a>
@@ -66,14 +78,17 @@ opacity: 0.5;}
    <!-- <a href="#" id="NPWMD" class="button2">NPWMD</a>
     <a href="#" id="SDGT" class="button2">SDGT</a>-->
   
-   
-    
-    
   </p>
   <div href="#" id="textarea" style="text-align:center;display:none;">
 Definition of the tags:
 The U.S. Department of the Treasury “tags” sanctions designation targets depending on the appropriate sanctions program(s). For example, the IRAN-HR tag refers to designees  under Executive Order 13553 (2010) on human rights. A full list of program tags is available<a href="https://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/program_tags.aspx"> here</a></div>
+      <div href="#" id="textarea2" style="text-align:center;display:none;">
+The following categories break down sanctions under the Trump administration according to whether they were new designations, designations reimposed after having been previously suspended, designations reimposed and designated under <a href="https://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/program_tags.aspx">additional sanctions programs (“tags”)</a>, or existing designations targeted under additional sanctions programs</div>
+
     </div>
+
+
+
     
 <div class="container">
   <hr>
